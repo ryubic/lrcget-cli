@@ -1,0 +1,16 @@
+{
+  "name": "lrcget-cli",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "LRCGET-CLI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lrclib-api": "^2.0.4",
+    "music-metadata": "^11.12.1"
+  }
+}
