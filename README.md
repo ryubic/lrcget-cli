@@ -1,4 +1,4 @@
-# LRCGET-CLI
+# lrcget-cli
 
 A lightweight Node.js utility to automatically fetch and save synchronized lyrics (.lrc) for your local music library from LRCLIB.
 
@@ -23,8 +23,8 @@ A lightweight Node.js utility to automatically fetch and save synchronized lyric
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ryubic/LRCGET-CLI
-   cd LRCGET-CLI
+   git clone https://github.com/ryubic/lrcget-cli
+   cd lrcget-cli
    ```
 2. **Install required npm packages**
    ```bash
@@ -36,12 +36,12 @@ A lightweight Node.js utility to automatically fetch and save synchronized lyric
 Run the script using Node.js. By default, it scans the current working directory.
 
    ```bash
-   node LRCGET-CLI.js
+   node lrcget-cli.js
    ```
 
 ### Target a Specific Directory
    ```bash
-   node LRCGET-CLI.js -d "/path/to/your/music"
+   node lrcget-cli.js -d "/path/to/your/music"
    ```
 
 ## Status Legend
@@ -53,4 +53,3 @@ During the process, the script uses the following indicators:
 - 🟨 Exists: Skipped; .lrc file already present.
 - 🟦 Instrumental: Skipped; track marked as instrumental in database.
 - 🟥 Not Found: No matching lyrics found on LRCLIB.
-
